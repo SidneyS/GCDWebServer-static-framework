@@ -1,4 +1,2 @@
-GCDWebServer.xccheckout
-build
-GCDWebServer.xcodeproj/project.xcworkspace/xcuserdata
-GCDWebServer.xcodeproj/xcuserdata
+*.xccheckout
+xcuserdata

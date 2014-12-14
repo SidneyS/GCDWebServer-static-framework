@@ -49,7 +49,7 @@
 		C0B8C00F1A3D068800CAF2F2 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B8BFE81A3D068800CAF2F2 /* GCDWebServerFileResponse.m */; };
 		C0B8C0111A3D068800CAF2F2 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B8BFE91A3D068800CAF2F2 /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0B8C0121A3D068800CAF2F2 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B8BFEA1A3D068800CAF2F2 /* GCDWebServerStreamedResponse.m */; };
-		C0FBBAA01A3D3A6F000C1652 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B8BFDC1A3D068800CAF2F2 /* GCDWebServerFileRequest.h */; };
+		C0FBBAA01A3D3A6F000C1652 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B8BFDC1A3D068800CAF2F2 /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
