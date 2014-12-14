@@ -49,6 +49,7 @@
 		C0B8C00F1A3D068800CAF2F2 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B8BFE81A3D068800CAF2F2 /* GCDWebServerFileResponse.m */; };
 		C0B8C0111A3D068800CAF2F2 /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B8BFE91A3D068800CAF2F2 /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0B8C0121A3D068800CAF2F2 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B8BFEA1A3D068800CAF2F2 /* GCDWebServerStreamedResponse.m */; };
+		C0FBBAA01A3D3A6F000C1652 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B8BFDC1A3D068800CAF2F2 /* GCDWebServerFileRequest.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -195,6 +196,7 @@
 				C0B8BFF41A3D068800CAF2F2 /* GCDWebServerHTTPStatusCodes.h in Headers */,
 				C0B8C0111A3D068800CAF2F2 /* GCDWebServerStreamedResponse.h in Headers */,
 				C0B8C0051A3D068800CAF2F2 /* GCDWebServerURLEncodedFormRequest.h in Headers */,
+				C0FBBAA01A3D3A6F000C1652 /* GCDWebServerFileRequest.h in Headers */,
 				C0B8BFF51A3D068800CAF2F2 /* GCDWebServerPrivate.h in Headers */,
 				C0B8C00B1A3D068800CAF2F2 /* GCDWebServerErrorResponse.h in Headers */,
 				C0B8C0081A3D068800CAF2F2 /* GCDWebServerDataResponse.h in Headers */,
@@ -328,6 +330,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -347,6 +350,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRIP_STYLE = "non-global";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -371,8 +375,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -385,6 +390,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				STRIP_STYLE = "non-global";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
